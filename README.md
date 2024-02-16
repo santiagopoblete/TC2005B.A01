@@ -1,2 +1,3 @@
-# TC2005B.A01
-Construcción de software y toma de decisiones (A01254609)
+# basic-template
+
+This is the basic files to start coding a simple HTML/CSS/JS static web site. 
