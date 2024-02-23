@@ -34,11 +34,35 @@ header div button {
     justify-content: space-evenly;
     width: 130px;
     height: 30px;
-    background-color: white;
+    background-color: none;
     border: 0px;
 }
 
 header div button img {
     width: 25px;
     height: 25px;
+}
+
+main div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main div button {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border: 0px;
+    height: 200px;
+}
+
+main div button img {
+    width: 25px;
+}
+
+main h1 {
+    text-align: center;
+}
+main div div img{
+    padding-inline:20%;
 }
