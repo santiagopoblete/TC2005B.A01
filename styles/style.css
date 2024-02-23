@@ -48,6 +48,12 @@ main div {
     justify-content: space-evenly;
 }
 
+.promociones {
+    display: flex;
+    justify-content: center;
+    padding-inline: 10%;
+}
+
 main div button {
     width: 10px;
     height: 10px;
@@ -65,4 +71,9 @@ main h1 {
 }
 main div div img{
     padding-inline:20%;
+}
+
+.paquetes {
+    display: flex;
+    
 }
