@@ -1,0 +1,120 @@
+@font-face {
+    font-family: firestyle;
+    src: url("../fonts/Play\ With\ Fire.ttf");
+}
+
+@font-face {
+    font-family: soul;
+    src: url("../fonts/soul/LTSoul-Regular.otf");
+}
+html {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Times New Roman';
+    color: rgb(75, 75, 75);
+}
+
+html ::selection {
+    background-color: black;
+    color: white;
+}
+
+header img {
+    width: 7%;
+    height: 7%;
+    justify-content: left;
+
+}
+
+header nav ul {
+    font-size: larger;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+header a{
+    color: black;
+}
+
+.top article {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding-left: 0%;
+}
+
+.top article h1 {
+    text-align: left;
+    font-style: italic;
+    font-family: soul;
+    font-size: xx-large;
+    margin-bottom: 0%;
+}
+
+
+.top article h2 {
+    text-align: right;
+    padding-right: 20%;
+    font-style: italic;
+    font-family: soul;
+    font-size: x-large;
+    margin-bottom: 0%;
+}
+
+.top article div {
+    display: grid;
+    grid-template-columns: 90% 10%;
+}
+
+.top article div div img {
+    width: 100%;
+    height: auto;
+}
+
+.top article div div {
+    text-align: right;
+}
+.icon {
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+    gap: 0px;
+    width: 100%;
+    height: 50%;
+}
+
+.top {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+.side-show {
+    width: 32%;
+    padding-top: 5%;
+}
+
+.side-show img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0px;
+}
+
+.side-show figcaption {
+    padding-bottom: 10%;
+    text-align: center;
+}
+
+.recom {
+    text-align: center;
+}
+
+p {
+    padding-left: 10%;
+    padding-right: 20%;
+    width: 80%;
+}

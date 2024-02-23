@@ -1,0 +1,79 @@
+html {
+    background-color: rgb(255, 255, 255);
+    font: Times;
+    color: rgb(0, 0, 0);
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    justify-content: left;
+
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header a{
+    color: black;
+}
+
+.top-lane {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+header div button {
+    display: flex;
+    font-weight: bold;
+    justify-content: space-evenly;
+    width: 130px;
+    height: 30px;
+    background-color: none;
+    border: 0px;
+}
+
+header div button img {
+    width: 25px;
+    height: 25px;
+}
+
+main div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.promociones {
+    display: flex;
+    justify-content: center;
+    padding-inline: 10%;
+}
+
+main div button {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border: 0px;
+    height: 200px;
+}
+
+main div button img {
+    width: 25px;
+}
+
+main h1 {
+    text-align: center;
+}
+main div div img{
+    padding-inline:20%;
+}
+
+.paquetes {
+    display: flex;
+    
+}
